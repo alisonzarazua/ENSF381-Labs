@@ -27,8 +27,8 @@ function HousePricePredictor() {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  async function handleSubmit(event){
+    event.preventDefault();
     setError("");
     setPrediction(null);
 
