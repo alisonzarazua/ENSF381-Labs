@@ -70,7 +70,7 @@ function LoginPage() {
       transition: "background 0.3s ease",
     },
     buttonHover: {
-      backgroundColor: "#0056b3",
+      backgroundColor: "#00008B",
     },
     errorMessage: {
       color: "red",
